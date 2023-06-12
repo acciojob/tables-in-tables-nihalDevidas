@@ -7,8 +7,87 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height:100%" border=1>
       <!-- Your code here -->
+		<tr>
+			<td Style = "border: 1px solid black" >
+				<table Style = "border: 1px solid black;width: 100%;" >
+					<th colspan = 2 Style = "border: 1px solid black">Nested Table 2</th>
+					<tr >
+						<td>
+					     <table  Style = "text-align:center;width: 100%;">
+					     <th style = " padding-left:15px; padding-right:15px;border: 1px solid black">Column 1</th>
+					     <tr><td style = "border: 1px solid black">abc</td</tr>
+				         </table>	
+						</td> 
+					    <td>
+					     <table  Style = "text-align:center;width: 100%;">
+					     <th style = "padding-left:15px; padding-right:15px;border: 1px solid black">Column 2</th>
+					     <tr><td style = "border: 1px solid black">def</td</tr>
+				         </table>
+					    </td>
+					</tr>
+				</table>
+			</td>
+
+
+			<td Style = "border: 1px solid black;">
+				<table style="text-align:center;width:100%">
+					<th colspan=3 Style = "border: 1px solid black">Nested Table 1</th>
+					<tr>
+						<td  Style = "border: 1px solid black">
+							<ul style="display:inline-block">
+							<li></li>
+							<li></li>
+							<li></li>
+						    </ul>
+						
+							<ul style = "list-style-type:none ;display:inline-block">
+							<li>List item</li>
+							<li>List item</li>
+							<li>List item</li>
+						    </ul>
+							<ul style = "list-style-type:none ;display:inline-block">
+							<li></li>
+							<li></li>
+							<li></li>
+						    </ul>
+						</td>
+					</tr>	
+				</table>
+			</td>	
+		</tr>
+
+		<tr>
+				<td Style = "border: 1px solid black" >
+				<table Style = "border: 1px solid black ;width:100%" >
+					<th colspan = 2 Style = "border: 1px solid black">Nested Table 3</th>
+					<tr >
+						<td>
+					     <table  Style = "text-align:center; width:100%">
+					     <tr><td style = "border: 1px solid black;padding-left:15px; padding-right:15px"><a href = "www.google.com">Nested Table</a></td</tr>
+				         </table>	
+						</td> 
+					    <td>
+					     <table  Style = "text-align:center;width:100%">
+					     <tr><td style = "border: 1px solid black;padding-left:15px; padding-right:15px">Demo Continued</td</tr>
+				         </table>
+					    </td>
+					</tr>
+				</table>
+			 </td>
+			
+			
+				<td Style = "border: 1px solid black" >
+				<table Style = "border: 1px solid black; text-align:center;width:100%" >
+					<th colspan = 2 Style = "border: 1px solid black;padding-left:15px; padding-right:15px">Nested Table 4</th>
+					<tr>
+					    <td style = "border: 1px solid black;padding-left:15px; padding-right:15px; background-color: black; color:white">HTML</td>
+					</tr>	
+				</table>
+			 </td>
+			
+		</tr>
     </table>
   </body>
 </html>
