@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+p{
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
